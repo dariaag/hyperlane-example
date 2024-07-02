@@ -96,6 +96,11 @@ const nextConfig = {
     hideSourceMaps: true,
     tunnelRoute: "/monitoring-tunnel",
   },
+
+  // Add the experimental property here
+  experimental: {
+    appDir: true,
+  },
 }
 
 const sentryWebpackPluginOptions = {
